@@ -1,0 +1,25 @@
+class Animal ():
+       def __init__(self,name,age,wingscolor):
+               self.age=age
+               self.name=name
+               self.wingscolor=wingscolor
+       def sleep(self):
+               print self.name+ "of" +str(self.age) +"is sleeping"
+       def eat(self,food):
+               print self.name+ "of" +str(self.age) +"is eating"+food
+x=Animal("MEET",11,"red")
+x.sleep()
+x.eat("pizza")
+y=Animal("Cat",2,"blue")
+y.sleep()
+y.eat("apple")
+     
+class Bird (Animal):
+     def fly (self):
+         print self.name+ " of" +str(self.age) +" is eating"+food+ "is flying"
+z=Animal("zozo",11,"red")
+z.fly()
+
+     
+
+               
